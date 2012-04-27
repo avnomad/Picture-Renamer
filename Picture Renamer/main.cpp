@@ -26,7 +26,7 @@ int main()
 
 		// create a file with the contents of the folder and it's subfolders.
 	tmpnam(contentsListName);	// create a name for a temporary file and save it in contentsListName.
-	strcat(dirCommand,contentsListName);	// complement the dirCommand whith the file name.
+	strcat(dirCommand,contentsListName);	// complement the dirCommand with the file name.
 	system(dirCommand);	// send the command to the system.
 
 		// rename the files
